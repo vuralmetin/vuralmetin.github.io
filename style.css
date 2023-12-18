@@ -144,6 +144,20 @@ a:hover {
 #menu .current_page_item a {
 }
 
+
+@media screen and (max-width: 768px) {
+    #menu {
+        justify-content: center; /* Center menu items */
+        flex-wrap: wrap; /* Allow items to wrap */
+    }
+
+    #menu a {
+        font-size: 10px; /* Smaller font size for smaller screens */
+        padding: 5px 10px;
+    }
+}
+
+
 /* Page */
 
 #page {
