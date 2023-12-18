@@ -69,7 +69,7 @@ a:hover {
 
 #wrapper {
 	width: 100%;
-	height: 5vh; /* Replace with the desired height */
+	height: 5%; /* Replace with the desired height */
 	background: none
 }
 
@@ -144,23 +144,17 @@ a:hover {
 #menu .current_page_item a {
 }
 
-
-
 @media screen and (max-width: 600px) {
-    #menu ul {
-        flex-direction: column; /* Stack items vertically */
-        align-items: flex-start; /* Align items to the start */
+    #menu a {
+        font-size: 10px; /* Smaller font size */
+        padding: 5px 10px; /* Smaller padding */
     }
 
     #menu li {
-        margin-right: 0; /* Reduce or remove margin */
-        width: 100%; /* Full width for each item */
-    }
-
-    #menu a {
-        font-size: 10px; /* Smaller font size */
+        margin-right: 10px; /* Less margin between items */
     }
 }
+@media screen and (max-width: 600px) {
 
 /* Page */
 
