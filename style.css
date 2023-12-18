@@ -154,15 +154,7 @@ a:hover {
         margin-right: 10px; /* Less margin between items */
     }
 }
-@media screen and (max-width: 600px) {
 
-/* Page */
-
-#page {
-	width: 100%;
-	margin: 0px auto;
-	
-}
 
 /* Content */
 
