@@ -145,17 +145,25 @@ a:hover {
 }
 
 
-@media screen and (max-width: 768px) {
-    #menu {
-        justify-content: center; /* Center menu items */
-        flex-wrap: wrap; /* Allow items to wrap */
+@media screen and (max-width: 600px) {
+    .some-class {
+        font-size: 14px;
     }
-
-    #menu a {
-        font-size: 10px; /* Smaller font size for smaller screens */
-        padding: 5px 10px;
+    .another-class {
+        display: none; /* Hide elements not critical for small screens */
     }
 }
+
+body {
+    font-size: 16px; /* Default font size */
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Smaller font size for smaller screens */
+    }
+}
+
 
 
 /* Page */
