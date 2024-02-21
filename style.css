@@ -136,14 +136,17 @@ a:hover {
 	text-align: justify;
 	text-transform: uppercase;
 	// font-family: 'Trebuchet MS', serif;
-	font-family: Arial, Helvetica, sans-serif;
+	// font-family: Arial, Helvetica, sans-serif;
 
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: normal;
 	color: #FFFFFF;
 	border: none;
-	// font-weight: bold;
-	letter-spacing: 2px; /* Increase spacing between letters */
+	font-weight: bold;
+	letter-spacing: 1px; /* Increase spacing between letters */
+
+	letter-spacing: 1px;
+	color: #FFFFFF;
 }
 
 #menu a:hover, #menu .current_page_item a {
