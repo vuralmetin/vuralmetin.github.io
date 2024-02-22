@@ -111,8 +111,8 @@ img {
 .section {
   padding-top: 3rem;
   padding-bottom: 2rem;
-  margin-left: var(--mb-2); /* or any default margin you prefer */
-  margin-right: var(--mb-2); /* or any default margin you prefer */
+  margin-left: var(--mb-5); /* Metin, or any default margin you prefer */  
+  margin-right: var(--mb-5); /* Metin, or any default margin you prefer */
 }
 
 /*===== LAYOUT =====*/
@@ -202,6 +202,9 @@ img {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+  margin-left: var(--mb-5); /* Metin, or any default margin you prefer */  
+  margin-right: var(--mb-5); /* Metin, or any default margin you prefer */
+
 }
 .home__data {
   align-self: center;
@@ -268,7 +271,7 @@ img {
   margin-bottom: var(--mb-2);
 }
 .about__img {
-  justify-self: center;
+  justify-self: left;
 }
 .about__img img {
   width: 200px;
@@ -419,7 +422,8 @@ img {
     bottom: 25%;
   }
   .about__container {
-    grid-template-columns: repeat(2, 1fr);
+   // grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 5fr; /* Adjusts so the text part is three times larger than the image part */
     align-items: center;
     text-align: initial;
   }
@@ -484,7 +488,7 @@ img {
     padding-top: 2rem;
   }
   .about__img img {
-    width: 300px;
+    width: 110px;
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
@@ -504,6 +508,8 @@ img {
   }
   .home {
     padding: 10rem 0 2rem;
+    margin-left: var(--mb-5); /* Metin, or any default margin you prefer */  
+    margin-right: var(--mb-5); /* Metin, or any default margin you prefer */
   }
   .home__img {
     width: 450px;
