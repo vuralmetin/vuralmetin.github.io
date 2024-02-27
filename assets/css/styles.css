@@ -350,6 +350,18 @@ img {
   transform: scale(1.1);
 }
 
+figcaption {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+
+
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
