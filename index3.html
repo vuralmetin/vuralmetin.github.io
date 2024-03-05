@@ -1,326 +1,147 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+Name       : Simple World 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20111225
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-        <script src="https://kit.fontawesome.com/a28efe7432.js" crossorigin="anonymous"></script>
-        <title>Metin Vural's Home Page</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo"></a>
-                </div>
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Metin Vural's Home Page</title>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Marvel' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Marvel|Delius+Unicase' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body> 
+    <div id="top-image">
+        <img src="images/class3.png" alt="Descriptive Text for Image">
+    </div>      
+    <div id="wrapper"> 
+        <div id="wrapper2">
+			<nav id="menu">
+				<ul>
+					<li class="current_page_item"><a href="index.html">Homepage</a></li>
+					<li><a href="research.html">Research</a></li>
+					<li><a href="publications.html">Publications</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		<!-- end #header -->
+		<div id="page">
+			<div id="content">
+				<div class="post">
+					<h2 class="title">
+					<!--	<a href="#">Welcome t</a><a href="#">o MY personal website</a></h2> -->
+					Metin Vural</h2> 
+					<p class="meta">
+						<span class="date">December 14, 2023</span></p>
+					<div style="clear: both;">
+						&nbsp;</div>
+					<!--	<p>Dr.-Ing. <br>
+						Research Associate <br> 
+						Fraunhofer Heinrich Hertz Institute (HHI), <br>  Salzufer 15/16 (Room 3-14) <br> 
+						metin.vural [at] hhi.fraunhofer.de, vuralmtn [at] gmail.com  </p> -->
+						<!--<p><strong>Dr.-Ing.</strong> <br>
+							<strong> Research Associate </strong> <br> 
+							<strong> Fraunhofer Heinrich Hertz Institute (HHI), Salzufer 15/16 (Room 3-14) </strong> <br> 
+							<strong> metin.vural [at] hhi.fraunhofer.de, vuralmtn [at] gmail.com </strong>  -->
+						<div class="about-me-container">
+							<div class="about-me-image"> <br>
+								<img src="images/unnamed.jpg" alt="Your Name">
+							</div>
+							<div class="about-me-text">
+								<p> <br class="spaced-line"> Dr.-Ing. <br class="spaced-line">
+									Research Associate <br class="spaced-line"> 
+									Fraunhofer Heinrich Hertz Institute (HHI), <br class="spaced-line">  Salzufer 15/16 (Room 3-14), 10587 Berlin <br class="spaced-line">
+									metin.vural [at] hhi.fraunhofer.de; vuralmtn [at] gmail.com  </p>
+								<!-- <p><strong>About me</strong> <br> You can write about your interests,<br> <strong>E-mail:</strong> metin.vural at hhi.fraunhofer.de, vuralmtn at gmail.com</p> -->
+							</div>
+						</div>
+						<p align="left">&nbsp;
+						</p>
+						<p class="dashed-paragraph", align="left"><strong>About me </strong> <br class="spaced-line">	
+						I received my B.S. degree in Electronics Engineering and M.Sc. degree in Communication Engineering from Istanbul Technical University (ITU), Turkey, in 2012 and 2014, respectively. 
+						<br class="spaced-line"> 
+						In 2021, I received my Dr.-Ing. (Ph.D.) degree from the Technical University of Berlin (TUB), Germany.
+						<br class="spaced-line"> Since 2022, I have been with the Fraunhofer Heinrich Hertz Institute (HHI) in Berlin, Germany.<!--, continuing my work in the field of communication engineering.-->
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link"> Home</a></li>
-
-                        <li class="nav__item"><a href="#work" class="nav__link">Fun With Data</a></li>
-                        <li class="nav__item"><a href="#publications" class="nav__link">Publications</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact &nbsp</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Metin Vural</span> </h1>
-                    <p class="about__text">
-                        
-                      <!--   <div class="about__container bd-grid">
-                            <div class="about__img">
-                                <img src="images/unnamed.jpg" alt="Your Name">
-                            </div>
+						<br class="spaced-line"> For further details, please refer to my resume at: <br> <a href="images/metin_cv.pdf" target="_blank"><strong>Metin Vural CV</strong></a>
+						<br class="spaced-line"> You can also check my related social media accounts from the right bottom of this page.</a>
+							</p>
+							<p align="left">&nbsp;
+							</p>
+							<p class="dashed-paragraph", align="left"> <strong>Research </strong> <br class="spaced-line"> Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+							</p>
+                            <p>  &nbsp;
+							</p>
+						<p align="left">&nbsp;
+							</p>
+                            	<p align="left">&nbsp;
+							</p>
+                             	<p align="left">&nbsp;
+							</p>
                             
-                            <div>
-                                <p class="dashed-paragraph", align="left"><strong> <span class="home__title-color">About me </span> </strong> <br>	
-                                    I received my B.S. degree in Electronics Engineering and M.Sc. degree in Communication Engineering from Istanbul Technical University (ITU), Turkey, in 2012 and 2014, respectively. 
-                                    <br> 
-                                    In 2021, I received my Dr.-Ing. (Ph.D.) degree from the Technical University of Berlin (TUB), Germany.
-                                    <br> Since 2022, I have been with the Fraunhofer Heinrich Hertz Institute (HHI) in Berlin, Germany.
-                                                              </div>                                   
-                        </div>
-                    -->
-                       <p class="dashed-paragraph", align="left"><strong> <span class="home__title-color">About me </span> </strong> <br>	
-                            I received my B.S. degree in Electronics Engineering and M.Sc. degree in Communication Engineering from Istanbul Technical University (ITU), Turkey, in 2012 and 2014, respectively. 
-                            <br> 
-                            In 2021, I received my Dr.-Ing. (Ph.D.) degree from the Technical University of Berlin (TUB), Germany.
-                            <br> Since 2022, I have been with the Fraunhofer Heinrich Hertz Institute (HHI) in Berlin, Germany.
-                            <p align="left">&nbsp;
-                            </p>
-                        
-                        
-                      
-                          
-                            <p class="dashed-paragraph", align="left"><strong><span class="home__title-color">My Research Interests</span> </strong> <br>  </p>
-                            <p>My research interests are primarily centered around the resolution and exploration of optimization problems, which lie at the heart of signal processing, information theory, communication, data science, and machine learning. </p>
-                            <p> Specializing in the development and application of mathematical and computational methods, my research aims to devise innovative strategies for solving complex optimization challenges. This includes enhancing algorithmic efficiency, improving decision-making processes, and optimizing system performance across various interdisciplinary domains in a broad spectrum of applications.</p>
+						<!--
+							<p align="left">
+								<strong>My detailed CV can be downloaded from the link:</strong> <a href="images/metin_cv.pdf"><strong>Metin VURAL CV</strong></a></p>
+								-->
+						
 
-
-<p align="left">&nbsp;
-</p>
-<p>My scholarly pursuits further extend to:</p>
-<ul style="text-align: justify; max-width: 100%; list-style-position: inside; padding-left: 0; list-style-type: disc;">
-    <li><strong>Learning-Based Solutions (AI Approaches) for Inverse Problems</strong> across the spectrum of Communication and Signal Processing.</li>
-    <li><strong>Optimization Problems</strong> within these domains, including:
-        <ul>  
-        <li><em>- Combinatorial Optimization Problems</em>, focusing on optimal decision-making in discrete systems,</li>
-        <li><em>- Continuous Optimization Problems</em>, covering linear, convex, and non-convex programming for efficient system design and operation,</li>
-        <li><em>- Stochastic Optimization</em>, aimed at enhancing decision-making under uncertainty within dynamic environments and for network optimization.</li>
-        </ul>
-    </li>
-    <li><strong>Predictive Modeling</strong>, emphasizing the use of forecasting, neural networks, and Bayesian inference methods to extract insights from data and anticipate future trends across various sectors.</li>
-    <li><strong>Frame Theory, Compressed Sensing, and Low-Rank Matrix Recovery</strong>, concentrating on the mathematical principles and practical applications for the effective acquisition and reconstruction of signals.</li>
-    <li><strong>Sensing, Wireless Localization, and Sensor Networks.</strong></li>
-</ul>
-
-
-
-
-                            <br> For further details, please refer to my resume at: <br> <a href="images/metin_cv.pdf" target="_blank"><strong>Metin Vural CV</strong></a>
-                            <p align="left">&nbsp;
-                            </p>
-                            <br> You can also check my related social media accounts.
-                  <!--  <a href="#" class="button">Contact</a> -->
-                  <p align="left">&nbsp;
-                </p>
-             
-                <div class="home__social">
-                    <!-- LinkedIn -->
-                    <a href="https://www.linkedin.com/in/metin-vural-10876439/" target="_blank" class="home__social-icon">
-                        <i class='fa-brands fa-linkedin'></i>
-                    </a>
-                    <!-- Google Scholar - Note: FontAwesome doesn't have a Google Scholar icon, so you might need to use an alternative method for this icon -->
-                    <a href="https://scholar.google.com/citations?user=BV-Cv5EAAAAJ&hl=en" target="_blank" class="home__social-icon">
-                        <i class='fa-brands fa-google-scholar'></i> <!-- This icon might not exist in FontAwesome, you may need a custom SVG or image -->
-                    </a>
-                    <!-- ResearchGate -->
-                    <!-- <a href="https://www.researchgate.net/profile/Metin-Vural" target="_blank" class="home__social-icon">
-                        <i class='fa-brands fa-researchgate'></i>
-                    </a> -->
-                    <!-- GitHub -->
-                    <a href="https://github.com/vuralmetin" target="_blank" class="home__social-icon">
-                        <i class='fa-brands fa-github'></i>
-                    </a>
-                </div>
-
-            </div>
-        </section>
-
-        
-                <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Fun With Data</h2>
-
-                <div class="work__container bd-grid">
-                    <a href="images/metin_cv.pdf" target="_blank" class="work__img">
-                        <img src="assets/img/work10.jpg" alt="">
-                        <figcaption> <strong>Berlin weather</strong>
-                            <p align="justify">
-                                Analysis These styles should help you achieve a layout where each image is followed by a left-aligned description on a new line. Adjust the padding, margin, and other properties as necessary to fit the design and spacing of your website.
-                              </p>  
-                        </figcaption>
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work7.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work8.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work9.jpg" alt="">
-                    </a>
-
-                    <a href="" class="work__img">
-                        <img src="assets/img/my_figure.jpg" alt="">
-                    </a>
-                    <a href="weather.html" class="work__img">
-                        <img src="assets/img/work7.jpg" alt="">
-                        <figcaption>Image description 1</figcaption>         
-                    </a>
-                </div>
-            </section>
-
-
-                        
-                <section class="about section" id="publications">
-                    <h2 class="section-title">Publications</h2>
-                    <div class="home__data">
-                        <p class="about__text">
-                                    <u><strong>About to be Submitted </strong></u>
-                                    <ul style="text-align: justify; max-width: 100%; list-style-position: inside; padding-left: 0; list-style-type: disc;">
-                                    <li> <strong>M. Vural,</strong> P. Jung and S. Stanczak, <em>"ℓp-norm Minimization with Simple Iterations,"</em>to be submitted to IEEE Transactions on Signal Processing.</li>
-                                    <li> <strong>M. Vural,</strong> et al. <em>”Utility Maximization with Time-Sharing in Wireless Networks: A Learning-Based Application,”</em> to be submitted to IEEE Signal Processing Letters.</li>				
-                                    </ul>
-                                </p>
-                                <p>  &nbsp;
-                                </p>
-                                <p align="justify">
-                                    <u><strong>Journals </strong></u>
-                                    <ul style="text-align: justify; max-width: 100%; list-style-position: inside; padding-left: 0; list-style-type: disc;">
-                                    <li> <strong> M. Vural,</strong>  C. Yuan, N. Kleppmann, P. Jung, and S. Stanczak,  <em>"Illinois-Type Methods for Noisy Euclidean Distance Realization,"</em> in IEEE Signal Processing Letters, vol. 29, pp. 2687-2691, 2022. doi: 10.1109/LSP.2022.3230371.</li>	
-                                    <li> <strong>M. Vural,</strong> A. Y. Aravkin, and S. Stanczak, <em>"ℓ1-Norm Minimization With Regula Falsi Type Root Finding Methods,"</em> in IEEE Signal Processing Letters, vol. 28, pp. 2132-2136, 2021. doi: 10.1109/LSP.2021.3120327.</li>	
-                                    <li> S. Büyükcorak, <strong>M. Vural,</strong> G. K. Kurt, <em>“Lognormal Mixture Shadowing,”</em> IEEE Transactions on Vehicular Technology, vol.64, no.10, pp.4386-4398, Oct. 2015.</li>	
-                                </p>
-                                <p>  &nbsp;
-                                </p>
-                                <p align="justify">
-                                    <u><strong>Conferences </strong></u>	
-                                    <ul style="text-align: justify; max-width: 100%; list-style-position: inside; padding-left: 0; list-style-type: disc;">
-                                    <li> <strong> M. Vural,</strong>  C. Yuan, N. Kleppmann, P. Jung, <em>”Robust Distance Matrix Completion for Localization using Frank-Wolfe Iterations,”</em> 2021 55th Asilomar Conference on Signals, Systems, and Computers, Pacific Grove, CA, USA, 2021, pp. 1003-1007, doi: 10.1109/IEEECONF53345.2021.9723143.</li>
-                                    <li> <strong> M. Vural,</strong>  C. Yuan, N. Kleppmann, P. Jung, <em>”A Semidefinite Programming Approach for Obstacle Prediction and Localization,”</em> WSA 2021; 25th International ITG Workshop on Smart Antennas, French Riviera, France, 2021, pp. 1-6.</li>
-                                     
-                                    <li><strong>M. Vural,</strong> P. Jung and S. Stanczak, <em>"Effect of anti-sparse prior on PAPR performance analysis,"</em> 2017 25th Signal Processing and Communications Applications Conference (SIU), 2017, pp. 1-4, doi: 10.1109/SIU.2017.7960517.</li>
-                                
-                                    <li> <strong>M. Vural,</strong> P. Jung and S. Stanczak, <em>"A new outlier detection method based on anti-sparse representations,"</em> 2017 25th Signal Processing and Communications Applications Conference (SIU), 2017, pp. 1-4, doi: 10.1109/SIU.2017.7960517.</li>
-                                 
-                                    <li> <strong>M. Vural,</strong> P. Jung and S. Stanczak, <em>"On Some Physical Layer Design Aspects for Machine Type Communication,"</em> WSA 2016; 20th International ITG Workshop on Smart Antennas, 2016, pp. 1-8.</li>
-                                    
-                                    <li> <strong>M. Vural,</strong>  G. K. Kurt and C. Schneider, <em>"The Effect of Shadow Fading Distributions on Outage Probability and Coverage Area,"</em> 2015 IEEE 81st Vehicular Technology Conference (VTC Spring), Glasgow, UK, 2015, pp. 1-6, doi: 10.1109/VTCSpring.2015.7146127.</li>
-                                    
-                                    <li> <strong>M. Vural,</strong> P. Erdem and O. Agin, <em>"Regression clustering with lower error VIA EM algorithm,"</em> 2014 22nd Signal Processing and Communications Applications Conference (SIU), Trabzon, Turkey, 2014, pp. 979-982, doi: 10.1109/SIU.2014.6830395.</li>					
-                                     
-                                    <li> <strong>M. Vural,</strong> and G. K. Kurt, <em>“Effect of cooperative communications on power consumption in smart grid,”</em> IEEE Conference on Signal Processing, Communications, and their Applications (SIU 2013), Cyprus, April 2013.</li>
-                                     
-                                <li> Z. Özdemir, <strong>M. Vural,</strong> Ö. Cepheli, and I. Hökelek,  <em>“Performance
-                                    Analysis of Wireless Sensor Networks by Using NS-2,”</em>  2013 European Conference of Technology
-                                    and Society (EuroTecS-2013), Sarajevo, Bosnia, June 2013.</li>
-                                    
-                                <li> N. Ucar, G. Karabulut, B. Yagci, B. Görgün, O. Ceylan, <strong>M. Vural,</strong> B. Badur,
-                                    B. Baskan, S. Cakin, C. Bozkurt, E. G. Akay, <em>“Monitoring The Vital Signals: Smart Garment
-                                    For Temperature Sensing Sensor Networks,”</em> 5th International Technical Textiles Congress, Izmir,
-                                    November 2012.</li>
-                                </ul>
-    
-            </div>
-
-            </section>
-
-        
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                   <!-- <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
-                    </form>-->
-                    <form action="submit_form.php" class="contact__form" method="post">
-                        <input type="text" name="name" placeholder="Name" class="contact__input" required>
-                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
-                        <textarea name="message" cols="0" rows="10" class="contact__input" placeholder="Your Message" required></textarea>
-                        <input type="submit" value="Send" class="contact__button button">
-                    </form>
-                    
-                </div>
-            </section>
-            
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <!-- <p class="footer__title">Marlon</p> -->
-          <!--   <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            </div> -->
-            <p class="footer__copy">Copyright &#169; 2024 Metin Vural</p>
-        </footer>
-
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+	<div style="clear: both;"></div> 
+					<div class="entry">
+						<p align="left"> &nbsp;</p>
+				  </div>
+			  </div>
+			  <div style="clear: both;">
+				<div class="social-links">
+					<a href="https://www.linkedin.com/in/metin-vural-10876439/" target="_blank">
+						<img src="images/linkedin-new.svg" alt="LinkedIn">
+					</a>
+					<a href="https://scholar.google.com/citations?user=BV-Cv5EAAAAJ&hl=en" target="_blank">
+						<img src="images/scholar-new.svg" alt="Google Scholar">
+					</a>
+					<a href="https://www.researchgate.net/profile/Metin-Vural" target="_blank">
+						<img src="images/researchgate-square.svg" alt="ResearchGate">
+					</a>		
+				</div>
+			</div>
+			
+			</div>
+			<!-- <div id="sidebar">
+				<ul>
+				  <li><a href="gauss.html">Research</a></li>
+				  <li><a href="fourier.html">Publications</a></li>
+				  <li><a href="form.html">Resume</a></li>
+				  <li><a href="#">D</a></li>
+				  <li><a href="#">E</a></li>
+				  <li><a href="form.html">Contact</a></li>
+				</ul>
+			  </div>
+			  -->
+			<!-- end #sidebar -->
+            <div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #page -->
+		<div id="footer">
+			<p align="right">
+				Copyright © 2023 Metin Vural 
+			</p>
+		</div>
+		
+	</div>
+</div>
+<!-- hitwebcounter Code START --><br />
+<!-- hitwebcounter.com -->
+<p><!-- end #footer --></body>
 </html>
+
